@@ -1,3 +1,3 @@
 select 
-    1 as number, 
+    4 as number, 
     'berlin' as location

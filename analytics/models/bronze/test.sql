@@ -1,0 +1,1 @@
+select 'mayor' as name

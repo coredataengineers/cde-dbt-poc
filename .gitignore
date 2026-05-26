@@ -1,0 +1,5 @@
+venv
+*profiles*
+logs
+*.user*
+target

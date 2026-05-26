@@ -1,0 +1,14 @@
+name: grover_analytics
+
+version: 1.0.0
+
+profile: my-snowflake-db
+
+model-paths: ["analytics/models"]
+
+models:
+  grover_analytics:
+    bronze:
+      +materialized: table
+    gold:
+      +materialized: view

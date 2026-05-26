@@ -1,0 +1,1 @@
+select location from dbt_dev.demo_gold

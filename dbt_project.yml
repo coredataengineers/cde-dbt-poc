@@ -9,6 +9,8 @@ model-paths: ["analytics/models"]
 models:
   grover_analytics:
     bronze:
+      +schema: ods_production
       +materialized: table
     gold:
+      +schema: master
       +materialized: view
